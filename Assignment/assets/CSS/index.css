@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.logo {
+  /* display: flex; */
+  align-items:center;
+  margin: 20px 10px 10px 10px;
+}
+
+.search-container {
+  flex-wrap: nowrap;
+  width: 50%;
+  /* border:  black; */
+  background-color: white;
+  border-style: ridge;
+}
+.search-container input {
+  border-style: none;
+  width: 95%;
+  height: 30px;
+  font-size: 23px;
+}
+.search-container input:focus{
+  outline: none;
+}
+.search-container button {
+  padding: 5px;
+}
+.search-container button i {
+  width: 10px;
+  height: 10px;
+}
+.navtools {
+  display: flex;
+}
+.tool1 {
+  padding: 8px;
+  margin: 10px;
+}
+.tool1 a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+.tool2 {
+  padding: 8px;
+  margin: 10px;
+}
+.tool2 a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+.tool2 a i {
+  color: white;
+}
+.tool3 {
+  padding: 8px;
+  margin: 10px;
+}
+.tool3 a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 219, 219);
+    padding: 20px;
+}
+.content-row{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: stretch; */
+    height: 350px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+/* Row 1 */
+.row1-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.row1-products a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.row1-products a span{
+    display: block;
+    text-align: center;
+}
+.row1-products a span:hover{
+    color: coral;
+}
+.row1-products a img{
+    height: 240px;
+}
+
+/* Row-2*/
+#header{
+    font-family: 'Montserrat', sans-serif;
+}
+#row2{
+    height: 100%;
+    flex-wrap: wrap;
+}
+.row2-products{
+    margin: 10px;
+}
+#header{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
